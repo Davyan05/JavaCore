@@ -26,7 +26,7 @@ public class Homework2 {
                 System.out.print(" ");
             }
             for (int m = 0; m <= i; m++) {
-                System.out.print(" * ");
+                System.out.print("*");
             }
             System.out.println();
             }
@@ -37,7 +37,7 @@ public class Homework2 {
                 System.out.print(" ");
             }
             for (int m = 0; m < i; m++) {
-                System.out.print(" * ");
+                System.out.print("*");
             }
             System.out.println();
         }
@@ -49,16 +49,16 @@ public class Homework2 {
                 System.out.print(" ");
             }
             for (int m = 0; m < (2 * i +1); m++) {
-                System.out.print(" * ");
+                System.out.print("*");
             }
             System.out.println();
         }
-        for (int i = 5-1; i > 0; i--) {
+        for (int i = 5 - 2; i >= 0; i--) {
             for (int j = 5; j > i + 1; j--) {
                 System.out.print(" ");
             }
             for (int m = 0; m < (2 * i +1); m++) {
-                System.out.print(" * ");
+                System.out.print("*");
             }
             System.out.println();
         }
